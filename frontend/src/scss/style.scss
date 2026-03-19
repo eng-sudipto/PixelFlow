@@ -1,0 +1,49 @@
+@import 'utilities';
+
+
+.connection {
+  text-align: center;
+  margin-top: 250px;
+
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 70px;
+    margin-bottom: 50px;
+
+    img {
+      width: 100px;
+      height: auto;
+      object-fit: cover;
+    }
+    h2{
+      font: {
+        size: 40px;
+        weight: 600;
+      }
+    }
+  }
+
+  h1{
+    font-size: 70px;
+    letter-spacing: 10px;
+  }
+  p{
+    font: {
+      weight: 600;
+      size: 30px;
+    }
+    margin-top: 20px;
+  }
+  span{
+    display: block;
+    margin-top: 10px;
+    font: {
+      weight:600;
+      size: 18px;
+      style: italic;
+    }
+  }
+}
