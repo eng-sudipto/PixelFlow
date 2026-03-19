@@ -29,13 +29,19 @@
   h1{
     font-size: 70px;
     letter-spacing: 10px;
+    margin-bottom: 20px;
   }
   p{
     font: {
       weight: 600;
       size: 30px;
     }
-    margin-top: 20px;
+  }
+  .new {
+    font: {
+      size: 20px;
+    };
+    margin-bottom: 50px;
   }
   span{
     display: block;
